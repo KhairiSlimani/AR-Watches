@@ -36,7 +36,7 @@ public class WatchSelect : MonoBehaviour
 
         // 2) Animate watch 1 window
 
-        w1WindowAnimation["w1animation"].speed = 1;
+        w1WindowAnimation["w1Animation"].speed = 1;
         w1WindowAnimation.Play();
 
 
@@ -52,7 +52,7 @@ public class WatchSelect : MonoBehaviour
 
         // 2) Animate watch 2 window
 
-        w2WindowAnimation["w2animation"].speed = 1;
+        w2WindowAnimation["w2Animation"].speed = 1;
         w2WindowAnimation.Play();
 
     }
@@ -67,7 +67,7 @@ public class WatchSelect : MonoBehaviour
 
         // 2) Animate watch 3 window
 
-        w3WindowAnimation["w3animation"].speed = 1;
+        w3WindowAnimation["w3Animation"].speed = 1;
         w3WindowAnimation.Play();
 
     }
@@ -79,24 +79,24 @@ public class WatchSelect : MonoBehaviour
         if (buttonName == "w1close")
         {
             //play animation to close w1
-            w1WindowAnimation["w1animation"].speed = -1;
-            w1WindowAnimation["w1animation"].time = w1WindowAnimation["w1animation"].length;
+            w1WindowAnimation["w1Animation"].speed = -1;
+            w1WindowAnimation["w1Animation"].time = w1WindowAnimation["w1Animation"].length;
             w1WindowAnimation.Play();
         }
 
         else if (buttonName == "w2close")
         {
             //play animation to close w2
-            w2WindowAnimation["w2animation"].speed = -1;
-            w2WindowAnimation["w2animation"].time = w2WindowAnimation["w2animation"].length;
+            w2WindowAnimation["w2Animation"].speed = -1;
+            w2WindowAnimation["w2Animation"].time = w2WindowAnimation["w2Animation"].length;
             w2WindowAnimation.Play();
         }
 
         else if (buttonName == "w3close")
         {
             //play animation to close w3
-            w3WindowAnimation["w3animation"].speed = -1;
-            w3WindowAnimation["w3animation"].time = w3WindowAnimation["w3animation"].length;
+            w3WindowAnimation["w3Animation"].speed = -1;
+            w3WindowAnimation["w3Animation"].time = w3WindowAnimation["w3Animation"].length;
             w3WindowAnimation.Play();
         }
     }
