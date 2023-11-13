@@ -10,6 +10,7 @@ public class MenuUIManager : MonoBehaviour
     bool isUIPanelActive;
     public Text distanceText;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +23,12 @@ public class MenuUIManager : MonoBehaviour
         
     }
 
-    public void DiplayStartEventPanel(double distance)
+    public void DiplayStartEventPanel(double distance, string locationName)
     {
         if(isUIPanelActive == false)
         {
             eventPanelUserInRange.SetActive(true);
-            distanceText.text = "Your destenation is " + distance.ToString("F2") + " meters";
+            distanceText.text = $"{locationName} is " + distance.ToString("F2") + " meters";
             isUIPanelActive = true;
         }           
     }

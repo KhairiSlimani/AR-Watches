@@ -11,6 +11,7 @@ public class EventPointer : MonoBehaviour
     LocationStatus playerLocation;
     public Vector2d eventPos;
     MenuUIManager menuUIManager;
+    public string locationName; // Add a variable to store the location name
 
 
 
@@ -43,7 +44,7 @@ public class EventPointer : MonoBehaviour
         Debug.Log("Distance is: " + distance);
       //  if(distance < 200)
      //   {
-            menuUIManager.DiplayStartEventPanel(distance);
+            menuUIManager.DiplayStartEventPanel(distance, locationName);
 
        // }
        

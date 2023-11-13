@@ -813,11 +813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1, type: 3}
       propertyPath: _imagery._layerProperty.sourceType
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1, type: 3}
       propertyPath: _imagery._layerProperty.sourceOptions.layerSource.Id
-      value: mapbox://styles/mapbox/light-v9
+      value: mapbox://styles/mapbox/satellite-streets-v10
       objectReference: {fileID: 0}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1, type: 3}
       propertyPath: _imagery._layerProperty.sourceOptions.layerSource.Name
@@ -1381,9 +1381,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _map: {fileID: 293038244}
-  _locationStrings:
-  - 36.90076733010173, 10.177616457382868
-  - 36.90069342433888, 10.17728555245714
+  _locationData:
+  - locationName: Lemsi Sport Center
+    locationString: 36.90056238426004, 10.179115619714421
+  - locationName: Home
+    locationString: 36.90061501828894, 10.17722277949383
   _spawnScale: 100
   _markerPrefab: {fileID: 7489466698497941904, guid: e833d21cb2f4a8f4bb5e2430b9121356, type: 3}
 --- !u!4 &2027982849
